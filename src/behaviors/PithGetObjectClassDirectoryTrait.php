@@ -20,14 +20,14 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Base\WorkflowElements\Behaviors;
+namespace Pith\Framework\Base\Behaviors;
 
 use ReflectionClass;
 use ReflectionException;
 
 /**
  * Trait PithGetObjectClassDirectoryTrait
- * @package Pith\Framework\Base\WorkflowElements\Behaviors
+ * @package Pith\Framework\Base\Behaviors
  */
 trait PithGetObjectClassDirectoryTrait
 {
