@@ -1,0 +1,35 @@
+{
+    "name": "pith/base",
+    "description": "Pith Framework Base",
+    "authors": [
+        {
+            "name": "Ian Maurmann",
+            "role": "Developer"
+        }
+    ],
+    "license": "MPL-2.0",
+    "require": {
+        "php": "^8.2",
+        "ext-gd": "*",
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-readline": "*",
+        "php-di/php-di": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pith\\Framework\\Base\\": [
+                "src/base/"
+            ],
+            "Pith\\Framework\\Base\\ThinWrappers\\": [
+                "src/thin-wrappers/"
+            ],
+            "Pith\\Framework\\Base\\Behaviors\\": [
+                "src/behaviors/"
+            ],
+            "Pith\\Framework\\Base\\Utilities\\": [
+                "src/utilities/"
+            ]
+        }
+    }
+}
