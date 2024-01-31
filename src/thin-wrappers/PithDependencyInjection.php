@@ -18,13 +18,13 @@
 
 declare(strict_types=1);
 
-namespace Pith\Framework\Base\WorkflowElements\ThinWrappers;
+namespace Pith\Framework\Base\ThinWrappers;
 
 use DI\Container;
 
 /**
  * Class PithDependencyInjection
- * @package Pith\Framework\Base\WorkflowElements\ThinWrappers
+ * @package Pith\Framework\Base\ThinWrappers
  */
 class PithDependencyInjection
 {
